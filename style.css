@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+
+
+/*My solution*/
+
+/*This container sets all the flex items into a column*/
+.main-container{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+
+}
+
+/*
+1. Both are made sub-containers
+2. Both have their flex-direction set to row
+3. Space-between
+*/
+.header,
+.footer{
+
+  display: flex;
+  justify-content: space-between;
+  
+
+
+ 
+
+}
+
+
+.footer{
+ 
+  margin-top: 140px;
+  background: #eee;
+}
+
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+
+
+ 
+}
+
+
+.input,
+.buttons{
+  margin: auto;
+  padding: 10px;
+}
+
+.left-links,
+.right-links{
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  gap: 15px;
+
+
+  
+}
+
+li{
+
+  list-style-type: none;
+  
+
+ 
+
+}
+
+a{
+  text-decoration: none;
+  color: #666;
+}
+
+button {
+  padding: 8px 16px;
+}
